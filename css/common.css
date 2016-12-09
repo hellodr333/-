@@ -1,20 +1,20 @@
 *{margin:0;padding:0;}
 body{background:#5bbcd5;}
-.timeline{max-width: 1200px;padding: 70px;padding-top:80px;margin:20px auto;}
-.timeline:after{content:'';position:absolute;left:44px;top:55px;width:4px;height:240%;margin-left:-2px;background:rgba(0, 0, 0, 0.2);display:block;}
+.timeline{max-width: 1200px;padding:80px 70px 0;margin:20px auto;position:relative;}
+.timeline:after{content:'';position:absolute;left:44px;top:55px;width:4px;height:98%;margin-left:-2px;background:rgba(0, 0, 0, 0.2);display:block;}
 .timeline-row{height:200px;margin-bottom:60px;position:relative;}
-.timeline-cont{background:white;height:180px;position:relative;top:-20px;left:30px;opacity:0;transition:all 0.8s ease;-webkit-transition:all 0.8s ease;-moz-transition:all 0.8s ease;border-radius:10px;}
+.timeline-cont{background:white;height:100px;position:relative;top:-20px;left:30px;opacity:0;transition:all 0.8s ease;-webkit-transition:all 0.8s ease;-moz-transition:all 0.8s ease;border-radius:10px;}
 .timeline-cont:after{content:'';position:absolute;left:-28px;top:35px;width:28px;height:4px;background:rgba(0, 0, 0, 0.2);display:block;}
 .timeline-cont .panel{padding:10px 10px;}
 .timeline-cont .panel h2{margin-bottom:10px;}
 .timeline-time{position:absolute;left:0;margin-top:-70px;}
-.timeline-icon{position:absolute;left:0px;background:url(../img/chongwu1206.jpg) no-repeat;width:30px;height:30px;margin-left:-40px;z-index:10;}
+.timeline-icon{position:absolute;left:0px;background:url(../img/time1.png) no-repeat;width:48px;height:48px;margin-left:-48px;z-index:10;}
 .timeline-row.active .timeline-cont{opacity:1;left:18px;}
-	
+.timeline span{color:white;}	
 
 @media (min-width:1200px){
 	
-	.timeline:after{content:'';position:absolute;left:50%;top:55px;width:4px;height:240%;margin-left:-2px;background:rgba(0, 0, 0, 0.2);display:block;}
+	.timeline:after{content:'';position:absolute;left:50%;top:55px;width:4px;height:98%;margin-left:-2px;background:rgba(0, 0, 0, 0.2);display:block;}
 	.timeline-time{position:absolute;left:50%;margin-top:0px;}
 	.timeline-cont:after{content:'';position:absolute;left:517px;top:35px;width:28px;height:4px;background:rgba(0, 0, 0, 0.2);display:block;}
 	.timeline-row:nth-child(odd) .timeline-cont:after{left:-28px;}
@@ -27,7 +27,7 @@ body{background:#5bbcd5;}
 	.timeline-row:nth-child(even) .timeline-cont{left:-40px;opacity:0;}
 	.timeline-row.active:nth-child(even) .timeline-cont{margin-right:45px;left:0px;opacity:1;}
 
-	.timeline-icon{position:absolute;left:50%;background:url(../img/chongwu1206.jpg) no-repeat;width:30px;height:30px;margin-left:-15px;z-index:10;}
+	.timeline-icon{position:absolute;left:50%;background:url(../img/time1.png) no-repeat;width:48px;height:48px;margin-left:-22px;z-index:10;}
 
 }
 
