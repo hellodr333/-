@@ -2,8 +2,8 @@
 body{background:#5bbcd5;}
 .timeline{max-width: 1200px;padding:80px 70px 0;margin:20px auto;position:relative;}
 .timeline:after{content:'';position:absolute;left:44px;top:55px;width:4px;height:98%;margin-left:-2px;background:rgba(0, 0, 0, 0.2);display:block;}
-.timeline-row{height:200px;margin-bottom:60px;position:relative;}
-.timeline-cont{background:white;height:100px;position:relative;top:-20px;left:30px;opacity:0;transition:all 0.8s ease;-webkit-transition:all 0.8s ease;-moz-transition:all 0.8s ease;border-radius:10px;}
+.timeline-row{margin-bottom:60px;position:relative;}
+.timeline-cont{background:white;position:relative;top:-20px;left:30px;opacity:0;transition:all 0.8s ease;-webkit-transition:all 0.8s ease;-moz-transition:all 0.8s ease;border-radius:10px;}
 .timeline-cont:after{content:'';position:absolute;left:-28px;top:35px;width:28px;height:4px;background:rgba(0, 0, 0, 0.2);display:block;}
 .timeline-cont .panel{padding:10px 10px;}
 .timeline-cont .panel h2{margin-bottom:10px;}
